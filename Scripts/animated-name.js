@@ -9,7 +9,7 @@ var ctx = document.querySelector("canvas").getContext("2d"),
 
 
 
-ctx.font = "30px Calibri, italic, TSCu_Comic, sans-serif"; 
+ctx.font = "60px Calibri, italic, TSCu_Comic, sans-serif"; 
 ctx.lineWidth = 1.5; ctx.lineJoin = "round"; ctx.globalAlpha = 2.5/3;
 ctx.strokeStyle = ctx.fillStyle = "#ffffff";
 

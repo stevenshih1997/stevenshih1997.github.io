@@ -8,8 +8,28 @@ body {
 }
 
 canvas {
-  padding-top: 100px;
+  padding-top: 225px;
+  padding-left: 100px;
 }
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+.navbar-right {
+  float: right!important;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+.navbar-collapse.collapse {
+  display: block!important;
+  overflow: visible;
+}
+.navbar .btn-navbar {
+  display: none;
+  height: 100px;
+
+}
+
 
 #name-intro{
   background-image: url(../Images/After\ Noon\ Desktop.svg);
@@ -29,4 +49,70 @@ canvas {
   margin: 0 auto;
   width: 100%;
   text-align: center;
+}
+#mystuff {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+#logo {
+  background-image: url(../Images/boy_4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 65px;
+  width: 65px;
+}
+.nav-icon-row {
+  padding-top: 25px;
+}
+.navbar-header {
+  padding-top: 18px;
+}
+li {
+  padding-right: 20px;
+}
+.btn-about {
+  background-image: url(../Images/Profile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+
+.btn-resume {
+  background-image: url(../Images/Article.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn-projects {
+  background-image: url(../Images/PC.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn-contact {
+  background-image: url(../Images/Message.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn:hover {
+  height: 50px;
+  width: 50px;
+  background-color: transparent !important;
 }

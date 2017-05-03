@@ -11,28 +11,46 @@
 <body>
 
 <header class="navbar-header" id="header">
-<nav class="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a href="#" class="navbar-brand">Avatar</a>
+  <nav class="navbar navbar-fixed-top">
+    <div class="nav-container container">
+      <div class="row">
+        <div class="col-md-4 col-xs-4">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand" id="logo"></a>
+          </div>
+        </div>
+        <div class="nav-icon-row col-md-8 col-xs-8">
+          <div class="navlist">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#" class="btn btn-about"></a>         
+                <span class="hover-hide hover-about">about</span>
+              </li>
+              <li>
+                <a href="#" class="btn btn-resume"></a> 
+                <span class="hover-hide hover-resume">resume</span>
+              </li>
+              <li>
+                <a href="#" class="btn btn-projects"></a>
+                <span class="hover-hide hover-projects">projects</span>
+              </li>
+              <li>
+                <a href="#" class="btn btn-contact"></a>
+                <span class="hover-hide hover-contact">contact</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="navlist">
-      <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Resume</a> </li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 </header>
 
 
 <section class="container-fluid" id="name-intro">
     <!-- <div class="animated-name container"></div> -->
   <div class="bg-image row">
-    <canvas width="630" class="animated-name container"></canvas> 
+    <canvas width="630" class="animated-name"></canvas> 
   </div>
 </section>
 
@@ -47,9 +65,16 @@
   </div>
 </section>
 
-<section class="mystuff">
-  
+<section id="mystuff">
+  <div class="container">
+    <div class="row">
+      <article>
+        <h2>Who am I?</h2>
+      </article>
+    </div>
+  </div>
 </section>
+
 <script src="./Scripts/jquery-3.2.1.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- <script src="./Scripts/bootstrap.min.js"></script> -->

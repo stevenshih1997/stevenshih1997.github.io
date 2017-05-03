@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    height: 100%;
+}
+
+canvas {
+  padding-top: 100px;
+}
+
+#name-intro{
+  background-image: url(../Images/After\ Noon\ Desktop.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+  overflow: hidden;
+}
+.bg-image {
+  height: auto;
+}
+
+#about-me {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}

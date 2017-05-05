@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $(".btn-about").click(function() {
 
-    if (window.location.href.indexOf("index") != -1) {
+    if (window.location.pathname === '/') {
       console.log("scroll down to about");
       $('html,body').animate({
         scrollTop: $("#about-me").offset().top},'slow');

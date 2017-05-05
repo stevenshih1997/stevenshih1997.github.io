@@ -1,3 +1,4 @@
+/* headroom.js settings*/
 #header{
   transition: all .26s ease-in;
   will-change: transform;
@@ -5,7 +6,7 @@
 }
 .headroom--not-top {
   color: #FFF;
-  background-color: #707798;
+  background-color: #C1C1C1;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 40px; 

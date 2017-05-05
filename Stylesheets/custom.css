@@ -30,7 +30,6 @@ canvas {
 
 }
 
-
 #name-intro{
   background-image: url(../Images/After\ Noon\ Desktop.svg);
 
@@ -45,17 +44,20 @@ canvas {
 }
 
 #about-me {
-  position: relative;
-  margin: 0 auto;
   width: 100%;
   text-align: center;
+  height: 300px;
+  padding-top: 40px;
+  background-color: #8397B8;
 }
 #mystuff {
-  position: relative;
-  margin: 0 auto;
+
   width: 100%;
   text-align: center;
+  background-color: #96CDCC;
+
 }
+
 #logo {
   background-image: url(../Images/boy_4.svg);
   background-repeat: no-repeat;
@@ -116,3 +118,52 @@ li {
   width: 50px;
   background-color: transparent !important;
 }
+
+
+#footer-info {
+  background-color: #FFC56C;
+
+
+}
+.footer-list {
+
+
+  text-align: center;
+
+
+  padding-top: 8px;
+}
+.footer-icons {
+  text-align: center;
+}
+.icon {
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+.icon-github {
+  background-image: url(../Images/github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon-linkedin {
+  background-image: url(../Images/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon-angelList {
+  background-image: url(../Images/angellist.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon:hover {
+  filter: grayscale(100%);
+}
+

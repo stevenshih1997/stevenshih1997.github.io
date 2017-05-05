@@ -1,36 +1,45 @@
 $(document).ready(function() {
+  $hoverNav = true;
   $("#header").headroom();
   adjustNav();
   $(window).resize(adjustNav);
 
   $(".btn-about").mouseenter(function() {
-    $(".hover-about").show();
+    if($hoverNav)
+      $(".hover-about").show();
   });
-  $(".btn-about").mouseleave(function() {
-    $(".hover-about").hide();
+  $(".btn-about").mouseleave(function() {    
+    if($hoverNav)
+      $(".hover-about").hide();
   });
 
   $(".btn-resume").mouseenter(function() {
-    $(".hover-resume").show();
+    if($hoverNav)
+      $(".hover-resume").show();
   });
   $(".btn-resume").mouseleave(function() {
-    $(".hover-resume").hide();
+    if($hoverNav)
+      $(".hover-resume").hide();
   });
 
   $(".btn-projects").mouseenter(function() {
-    $(".hover-projects").show();
+    if($hoverNav)
+      $(".hover-projects").show();
   });
   $(".btn-projects").mouseleave(function() {
-    $(".hover-projects").hide();
+    if($hoverNav)
+      $(".hover-projects").hide();
   });
 
   $(".btn-contact").mouseenter(function() {
-    $(".hover-contact").show();
+    if($hoverNav)
+      $(".hover-contact").show();
   });
   $(".btn-contact").mouseleave(function() {
-    $(".hover-contact").hide();
+    if($hoverNav)
+      $(".hover-contact").hide();
   });
-  
+
   function adjustNav () {
   if ( $(window).width() < 1024 ) {
     $hoverNav = false;

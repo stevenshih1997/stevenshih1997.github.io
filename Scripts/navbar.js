@@ -5,8 +5,15 @@ $(document).ready(function() {
   $(window).resize(adjustNav);
 
   $(".btn-about").click(function() {
-    $('html,body').animate({
-      scrollTop: $("#about-me").offset().top},'slow');
+
+    if (window.location.href.indexOf("index") != -1) {
+      console.log("scroll down to about");
+      $('html,body').animate({
+        scrollTop: $("#about-me").offset().top},'slow');
+    } else {
+      console.log("Redirect to Home page");
+      document.location.href="/";
+    }
   });
 
   $(".btn-about").mouseenter(function() {

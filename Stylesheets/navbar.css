@@ -107,7 +107,9 @@ li {
   height: 40px;
   width: 40px;
 }
-.btn:hover {
+.btn:hover,
+.btn:active,
+.btn:focus {
   height: 50px;
   width: 50px;
   background-color: transparent !important;

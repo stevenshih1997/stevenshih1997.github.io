@@ -4,6 +4,11 @@ $(document).ready(function() {
   adjustNav();
   $(window).resize(adjustNav);
 
+  $(".btn-about").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#about-me").offset().top},'slow');
+  });
+
   $(".btn-about").mouseenter(function() {
     if($hoverNav)
       $(".hover-about").show();

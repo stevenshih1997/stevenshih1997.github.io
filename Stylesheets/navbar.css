@@ -40,3 +40,134 @@
 }
 
 
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+.navbar-right {
+  float: right!important;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+.navbar-collapse.collapse {
+  display: block!important;
+  overflow: visible;
+}
+.navbar .btn-navbar {
+  display: none;
+  height: 100px;
+
+}
+
+
+
+.nav-icon-row {
+  padding-top: 25px;
+}
+.navbar-header {
+  padding-top: 18px;
+}
+li {
+  padding-right: 20px;
+}
+.btn-about {
+  background-image: url(../Images/Profile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+
+.btn-resume {
+  background-image: url(../Images/Article.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn-projects {
+  background-image: url(../Images/PC.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn-contact {
+  background-image: url(../Images/Message.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 40px;
+  width: 40px;
+}
+.btn:hover {
+  height: 50px;
+  width: 50px;
+  background-color: transparent !important;
+}
+
+
+#logo {
+  background-image: url(../Images/boy_4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 65px;
+  width: 65px;
+}
+
+#footer-info {
+  background-color: #FFC56C;
+
+
+}
+.footer-list {
+
+
+  text-align: center;
+
+
+  padding-top: 8px;
+}
+.footer-icons {
+  text-align: center;
+}
+.icon {
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+}
+
+.icon-github {
+  background-image: url(../Images/github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon-linkedin {
+  background-image: url(../Images/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon-angelList {
+  background-image: url(../Images/angellist.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+.icon:hover {
+  filter: grayscale(100%);
+}
+

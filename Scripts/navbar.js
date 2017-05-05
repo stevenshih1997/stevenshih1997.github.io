@@ -43,6 +43,17 @@ $(document).ready(function() {
       $(".hover-projects").hide();
   });
 
+  // $(".btn-projects").click(function() {
+  //   if (window.location.pathname === '/') {
+  //     console.log("scroll down to about");
+  //     $('html,body').animate({
+  //       scrollTop: $("#about-me").offset().top},'slow');
+  //   } else {
+  //     console.log("Redirect to Home page");
+  //     document.location.href="/";
+  //   }
+  // });
+
   $(".btn-contact").mouseenter(function() {
     if($hoverNav)
       $(".hover-contact").show();

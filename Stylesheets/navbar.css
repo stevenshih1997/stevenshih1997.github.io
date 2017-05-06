@@ -1,6 +1,7 @@
 /* headroom.js settings*/
 #header{
   transition: all .26s ease-in;
+  z-index: 9999;
   will-change: transform;
   height: 100px;
 }
@@ -14,7 +15,8 @@
   top: 0;
   left: 0;
   right: 0;
-  opacity: 0.88; 
+  opacity: 0.92; 
+  /*opacity: 1;*/
 }
 .headroom--top {
   color: #FFF;

@@ -33,12 +33,22 @@ canvas {
   background-color: #FFEDB3;
 }
 #mystuff {
-
   width: 100%;
   text-align: center;
   background-color: #96CDCC;
   /*background-color: #A7E3E2;*/
+  padding-bottom: 20px;
 }
 
+#macbook {
+  position: relative;
 
+}
+.macbook-img {
+  background-image: url(../Images/macbook.svg);
+  background-position: center;
 
+  margin: auto;
+  width: 300px;
+  height: 168px;
+}

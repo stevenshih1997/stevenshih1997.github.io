@@ -5,7 +5,6 @@ $(document).ready(function() {
   $(window).resize(adjustNav);
 
   $(".btn-about").click(function() {
-
     if (window.location.pathname === '/') {
       console.log("scroll down to about");
       $('html,body').animate({

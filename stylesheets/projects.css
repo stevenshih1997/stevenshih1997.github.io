@@ -1,0 +1,13 @@
+#top {
+  background-image: url(../Images/red_sunset.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  overflow: hidden;
+}
+
+canvas {
+  padding-top: 100px;
+  padding-left: 100px;
+}

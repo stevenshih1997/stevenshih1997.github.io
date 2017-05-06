@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    height: 100%;
+}
+
+canvas {
+  padding-top: 225px;
+  padding-left: 100px;
+}
+
+#name-intro{
+  background-image: url(../Images/After\ Noon\ Desktop.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+  overflow: hidden;
+}
+.bg-image {
+  height: auto;
+}
+
+#about-me {
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  padding-top: 40px;
+  background-color: #FFEDB3;
+}
+#mystuff {
+  width: 100%;
+  text-align: center;
+  background-color: #96CDCC;
+  /*background-color: #A7E3E2;*/
+  padding-bottom: 20px;
+}
+
+#macbook {
+  position: relative;
+
+}
+.macbook-img {
+  background-image: url(../Images/macbook.svg);
+  background-position: center;
+
+  margin: auto;
+  width: 300px;
+  height: 168px;
+}

@@ -3,7 +3,7 @@
   transition: all .26s ease-in;
   z-index: 9999;
   will-change: transform;
-  height: 100px;
+  height: 95px;
 }
 .headroom--not-top {
   color: #FFF;
@@ -64,13 +64,13 @@
 
 
 .nav-icon-row {
-  padding-top: 25px;
+  padding-top: 18px;
 }
 .navbar-header {
   padding-top: 18px;
 }
 li {
-  padding-right: 20px;
+  padding-right: 23px;
 }
 .btn-about {
   background-image: url(../images/Profile.svg);
@@ -134,11 +134,7 @@ li {
 
 }
 .footer-list {
-
-
   text-align: center;
-
-
   padding-top: 8px;
 }
 .footer-icons {

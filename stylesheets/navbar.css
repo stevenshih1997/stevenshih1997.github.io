@@ -73,7 +73,7 @@ li {
   padding-right: 20px;
 }
 .btn-about {
-  background-image: url(../Images/Profile.svg);
+  background-image: url(../images/Profile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -83,7 +83,7 @@ li {
 }
 
 .btn-resume {
-  background-image: url(../Images/Article.svg);
+  background-image: url(../images/Article.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -92,7 +92,7 @@ li {
   width: 40px;
 }
 .btn-projects {
-  background-image: url(../Images/PC.svg);
+  background-image: url(../images/PC.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -101,7 +101,7 @@ li {
   width: 40px;
 }
 .btn-contact {
-  background-image: url(../Images/Message.svg);
+  background-image: url(../images/Message.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -119,7 +119,7 @@ li {
 
 
 #logo {
-  background-image: url(../Images/boy_4.svg);
+  background-image: url(../images/boy_4.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -151,21 +151,21 @@ li {
 }
 
 .icon-github {
-  background-image: url(../Images/github.svg);
+  background-image: url(../images/github.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 45px;
   height: 45px;
 }
 .icon-linkedin {
-  background-image: url(../Images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 45px;
   height: 45px;
 }
 .icon-angelList {
-  background-image: url(../Images/angellist.svg);
+  background-image: url(../images/angellist.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 45px;

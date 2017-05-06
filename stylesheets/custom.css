@@ -13,7 +13,7 @@ canvas {
 }
 
 #name-intro{
-  background-image: url(../Images/After\ Noon\ Desktop.svg);
+  background-image: url(../images/After\ Noon\ Desktop.svg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@ canvas {
 
 }
 .macbook-img {
-  background-image: url(../Images/macbook.svg);
+  background-image: url(../images/macbook.svg);
   background-position: center;
 
   margin: auto;

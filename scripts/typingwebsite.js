@@ -1,7 +1,7 @@
 $(document).ready(function() {
   setTimeout(function(){
           $(".websitecode").typed({
-              strings: ["<section id='about-me'>\n  <div class='container'>\n   <div class='row'>\n    <div class='col-md-12'>\n     <article>\n      <h2>Hello.</h2>\n      <p>I am a computer engineering \n         student at the \n         University of British Columbia.</p>\n     </article>\n    </div>\n   </div>\n  </div>\n</section>"],
+              strings: ["<section id='about-me'>\n  <div class='container'>\n   <div class='row'>\n    <div class='col-md-12'>\n     <article>\n      <h2>Hello.</h2>\n      <p>I am a computer engineering \n         student at the \n         University of British \n         Columbia.</p>\n     </article>\n    </div>\n   </div>\n  </div>\n</section>"],
               contentType: 'text', 
               typeSpeed: 30, // typing speed
               backDelay: 750, // pause before backspacing

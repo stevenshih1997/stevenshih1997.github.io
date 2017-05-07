@@ -50,11 +50,7 @@ p{
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-
-
-  top: 14px;
-  left: 68px;
-
+    text-align: left;
 }
 @keyframes blink{
     0% { opacity:1; }
@@ -73,7 +69,6 @@ p{
 }*/
 
 .code {
-
   font-size: 8px;
   color: #ffffff;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
@@ -82,6 +77,18 @@ p{
   float: left;
   padding-top: 15px;
   padding-left: 38px;
+  z-index: 1000;
+}
+.websitecode {
+
+  font-size: 13.5px;
+  color: #ffffff;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+
+  text-align: left;
+  float: left;
+  padding-top: 38px;
+  padding-left: 35px;
   z-index: 1000;
 }
 

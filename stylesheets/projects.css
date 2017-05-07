@@ -8,6 +8,52 @@
 }
 
 canvas {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-left: 100px;
+}
+
+#hackathon {
+  background-color: #50CDCC;
+  width: 100%;
+  text-align: center;
+}
+#android {
+  background-color: #82CDEE;
+  width: 100%;
+  text-align: center;
+}
+.imac-picture {
+  background-image: url(../images/imac.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: auto;
+  width: 435px;
+  height: 377px;
+
+}
+#nodejs {
+  background-color: #71CDFF;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 20px;
+}
+
+.editor-picture {
+  position: relative;
+  background-image: url(../images/editor.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: auto;
+  width: 616px;
+  height: 424px;
+}
+#thiswebsite {
+  background-color: #96CDCC;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 20px;
 }

@@ -24,14 +24,14 @@ canvas {
   text-align: center;
 }
 .imac-picture {
-  background-image: url(../images/imac.svg);
+/*  background-image: url(../images/imac.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
 
   margin: auto;
-  width: 435px;
-  height: 377px;
-
+  max-width: 600px;
+  height: auto;
+  width: 100%;
 }
 #nodejs {
   background-color: #71CDFF;

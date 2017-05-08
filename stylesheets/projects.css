@@ -19,7 +19,7 @@ canvas {
   background-position: center;*/
 
   margin: auto;
-  max-width: 872px;
+  max-width: 720px;
   height: auto;
   width: 100%;
 }
@@ -28,12 +28,24 @@ canvas {
   width: 100%;
   text-align: center;
 
-  padding-top: 20px;
+  padding-top: 50px;
+}
+.android-picture {
+/*  background-image: url(../images/imac.svg);
+  background-repeat: no-repeat;
+  background-position: center;*/
+
+  margin: auto;
+  max-width: 720px;
+  height: auto;
+  width: 100%;
 }
 #android {
   background-color: #82CDEE;
   width: 100%;
   text-align: center;
+
+  padding-top: 50px;
 }
 .imac-picture {
 /*  background-image: url(../images/imac.svg);
@@ -50,7 +62,7 @@ canvas {
   width: 100%;
   text-align: center;
 
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .editor-picture {
@@ -69,5 +81,5 @@ canvas {
   width: 100%;
   text-align: center;
 
-  padding-top: 20px;
+  padding-top: 50px;
 }

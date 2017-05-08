@@ -13,10 +13,22 @@ canvas {
   padding-left: 100px;
 }
 
+.chrome-picture {
+/*  background-image: url(../images/imac.svg);
+  background-repeat: no-repeat;
+  background-position: center;*/
+
+  margin: auto;
+  max-width: 872px;
+  height: auto;
+  width: 100%;
+}
 #hackathon {
   background-color: #50CDCC;
   width: 100%;
   text-align: center;
+
+  padding-top: 20px;
 }
 #android {
   background-color: #82CDEE;

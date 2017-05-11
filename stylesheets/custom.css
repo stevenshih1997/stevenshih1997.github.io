@@ -1,15 +1,12 @@
 h2 {
-  /*font-family: 'Quando', serif;*/
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Quando', serif;
 }
 h3 {
- /* font-family: 'Judson', serif;*/
- font-family: 'Sansita', sans-serif;
+  font-family: 'Judson', serif;
 }
 p {
-/*  font-family: 'Montserrat', sans-serif;*/
-font-family: 'Scope One', serif;
-}
+  font-family: 'Montserrat', sans-serif;
+  }
 html {
     height: 100%;
 }

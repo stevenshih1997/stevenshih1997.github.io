@@ -6,7 +6,7 @@ var ctx = document.querySelector("canvas").getContext("2d"),
     dashLen = 220, dashOffset = dashLen, speed = 15,
     txt = "Projects", x = 30, i = 0;
 
-ctx.font = "60px Calibri, italic, TSCu_Comic, sans-serif"; 
+ctx.font = "60px Quando, italic, TSCu_Comic, sans-serif"; 
 ctx.lineWidth = 1.5; ctx.lineJoin = "round"; ctx.globalAlpha = 2.5/3;
 ctx.strokeStyle = ctx.fillStyle = "#ffffff";
 

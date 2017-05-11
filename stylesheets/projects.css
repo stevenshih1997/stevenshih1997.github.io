@@ -1,4 +1,12 @@
-
+h2 {
+  font-family: 'Quando', serif;
+}
+h3 {
+  font-family: 'Judson', serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 #top {
   background-image: url(../images/red_sunset.svg);
   background-repeat: no-repeat;

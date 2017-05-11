@@ -1,3 +1,12 @@
+h2 {
+  font-family: 'Quando', serif;
+}
+h3 {
+  font-family: 'Judson', serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 html {
     height: 100%;
 }
@@ -11,7 +20,6 @@ canvas {
   padding-top: 225px;
   padding-left: 100px;
 }
-
 
 #name-intro{
   background-image: url(../images/After\ Noon\ Desktop.svg);

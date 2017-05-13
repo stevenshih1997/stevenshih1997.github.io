@@ -1,6 +1,6 @@
-$("#header").headroom();
-window.onload = function () {
+$(document).ready(function() {
   $hoverNav = true;
+  $("#header").headroom();
   adjustNav();
   $(window).resize(adjustNav);
 
@@ -71,4 +71,4 @@ window.onload = function () {
     $(".hover-hide").hide();
   }
 }
-};
+});

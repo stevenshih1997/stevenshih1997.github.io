@@ -1,90 +1,19 @@
-/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
-
-*{
-  padding:0;
-  margin:0;
-}
-
-body{
-  font-family: "Ubuntu", sans-serif;
-  font-size: 100%;
-  background:#f8f8f8;
-}
-
-a{
-  text-decoration: none;
-  color:#666;
-}
-  a:hover{
-    color:#999;
-  }
-p{
-  line-height: 2em;
-  margin:0 0 20px;
-  text-align: center;
-}
-
-.wrap{
-  max-width: 600px;
-  margin:150px auto;
-}
-
-.type-wrap{
-  margin:10px auto;
-  padding:20px;
-  background:#f0f0f0;
-  border-radius:5px;
-  border:#CCC 1px solid;
-}
-
-.links{
-  margin:20px 0;
-  font-size: 0.75em;
-  text-align: center;
-}*/
-
-/* Animated blinking cursor */
-
-/*.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    text-align: left;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}*/
-
+/* index.html Macbook code settings */
 .code {
   font-size: 8px;
   color: #ffffff;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
-
   text-align: left;
   float: left;
-  padding-top: 15px;
+  padding-top: 12px;
   padding-left: 38px;
   z-index: 1000;
 }
+/* projects.html personal website code settings */
 .websitecode {
-
   font-size: 13.5px;
   color: #ffffff;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
-
   text-align: left;
   float: left;
   padding-top: 37.75px;

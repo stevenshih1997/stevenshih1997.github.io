@@ -1,3 +1,7 @@
+/**
+ * Uses Typed.js library to simulate typing code. Used in projects.html Editor.svg
+ * @return None
+ */
 $(document).ready(function() {
   setTimeout(function(){
           $(".websitecode").typed({

@@ -16,7 +16,6 @@
   left: 0;
   right: 0;
   opacity: 0.92; 
-  /*opacity: 1;*/
 }
 .headroom--top {
   color: #FFF;
@@ -35,13 +34,11 @@
 .headroom--unpinned {
   transform: translateY(-100%);
 }
-
+/* Override Bootstrap Navbar*/
 .navlist {
   position: relative;
   display: inline-block;
 }
-
-
 .navbar-nav>li, .navbar-nav {
   float: left !important;
 }
@@ -58,36 +55,30 @@
 .navbar .btn-navbar {
   display: none;
   height: 100px;
-
 }
-
-
-
+/* Custom Navbar */
+li {
+  padding-right: 20px;
+}
 .nav-icon-row {
   padding-top: 18px;
 }
 .navbar-header {
   padding-top: 18px;
 }
-li {
-  padding-right: 20px;
-}
 .btn-about {
   background-image: url(../images/Profile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
   height: 40px;
   width: 40px;
 }
-
 .btn-resume {
   background-image: url(../images/Article.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
   height: 40px;
   width: 40px;
 }
@@ -96,7 +87,6 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
   height: 40px;
   width: 40px;
 }
@@ -105,7 +95,6 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
   height: 40px;
   width: 40px;
 }
@@ -116,22 +105,17 @@ li {
   width: 50px;
   background-color: transparent !important;
 }
-
-
 #logo {
   background-image: url(../images/boy_4.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
   height: 65px;
   width: 65px;
 }
-
+/* Custom Footer */
 #footer-info {
   background-color: #FFC56C;
-
-
 }
 .footer-list {
   text-align: center;
@@ -145,7 +129,6 @@ li {
   text-align: center;
   padding: 30px;
 }
-
 .icon-github {
   background-image: url(../images/github.svg);
   background-repeat: no-repeat;

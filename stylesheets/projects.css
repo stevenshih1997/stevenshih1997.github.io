@@ -1,3 +1,4 @@
+/* Custom Google Fonts */
 h2 {
   font-family: 'Quando', serif;
 }
@@ -7,6 +8,11 @@ h3 {
 p {
   font-family: 'Montserrat', sans-serif;
 }
+canvas {
+  padding-top: 120px;
+  padding-left: 100px;
+}
+/* Projects CSS settings */
 #top {
   background-image: url(../images/red_sunset.svg);
   background-repeat: no-repeat;
@@ -15,51 +21,34 @@ p {
   height: 450px;
   overflow: hidden;
 }
-
-canvas {
-  padding-top: 120px;
-  padding-left: 100px;
-}
-
 .chrome-picture {
-/*  background-image: url(../images/imac.svg);
-  background-repeat: no-repeat;
-  background-position: center;*/
-
   margin: auto;
   max-width: 720px;
   height: auto;
   width: 100%;
 }
 #hackathon {
-  background-color: #50CDCC;
+  /*background-color: #50CDCC;*/
+  background-color: #F38546;
   width: 100%;
   text-align: center;
-
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 .android-picture {
-/*  background-image: url(../images/imac.svg);
-  background-repeat: no-repeat;
-  background-position: center;*/
-
   margin: auto;
   max-width: 720px;
   height: auto;
   width: 100%;
 }
 #android {
-  background-color: #82CDEE;
+  background-color: #F98678;
   width: 100%;
   text-align: center;
-
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 .imac-picture {
-/*  background-image: url(../images/imac.svg);
-  background-repeat: no-repeat;
-  background-position: center;*/
-
   margin: auto;
   max-width: 600px;
   height: auto;
@@ -69,12 +58,10 @@ canvas {
   background-color: #71CDFF;
   width: 100%;
   text-align: center;
-
   padding-top: 50px;
+  padding-bottom: 20px;
 }
-
 .editor-picture {
-
   background-image: url(../images/editor.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -88,6 +75,6 @@ canvas {
   background-color: #96CDCC;
   width: 100%;
   text-align: center;
-
   padding-top: 50px;
+  padding-bottom: 20px;
 }

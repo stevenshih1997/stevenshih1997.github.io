@@ -7,7 +7,6 @@ h3 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
-  width: 600px;
 }
 canvas {
   padding-top: 120px;
@@ -80,6 +79,8 @@ canvas {
   padding-bottom: 20px;
 }
 .info {
-  display: inline-block;
   text-align: center;
+  padding: 2em 0 0;
+  margin: 0 auto;
+  max-width: 600px;
 }

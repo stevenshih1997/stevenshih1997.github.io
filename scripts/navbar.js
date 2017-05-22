@@ -50,7 +50,6 @@ $(document).ready(function() {
     if($hoverNav)
       $(".hover-contact").hide();
   });
- 
   /**
    * Function to adjust navbar, which shows text when window is at a certain size
    * @return None

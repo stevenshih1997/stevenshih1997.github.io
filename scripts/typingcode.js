@@ -1,3 +1,4 @@
+// typingcode.js 
 /**
  * Uses Typed.js library to simulate typing code. Used in index.html macbook.svg
  * @return None

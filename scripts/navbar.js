@@ -1,3 +1,4 @@
+// navbar.js
 $(document).ready(function() {
   $hoverNav = true;
   $("#header").headroom(); // Initialize Headroom.js Navbar

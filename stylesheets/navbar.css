@@ -60,6 +60,10 @@
 li {
   padding-right: 20px;
 }
+span {
+  margin: auto;
+  display: table;
+}
 .nav-icon-row {
   padding-top: 18px;
   text-align: right;
@@ -74,6 +78,10 @@ li {
   background-position: center;
   height: 40px;
   width: 40px;
+  text-align: center;
+}
+.hover-about {
+  text-align: left;
 }
 .btn-resume {
   background-image: url(../images/Article.svg);

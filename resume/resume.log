@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.1.27)  24 JUL 2017 20:11
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.1.27)  26 JUL 2017 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,6 +177,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 16--16
 [] 
+ []
+
+
+Overfull \hbox (21.50592pt too wide) in paragraph at lines 82--88
+[][] 
  []
 
 

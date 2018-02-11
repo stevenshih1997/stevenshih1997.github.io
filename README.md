@@ -1,3 +1,1 @@
-# My Personal Website
-
-Go to steveshih.com
+# My [Personal Website](http://www.steveshih.com)
